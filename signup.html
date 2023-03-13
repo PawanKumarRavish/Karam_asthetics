@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/style.css">
+ <!-- Fonts...... -->
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+ <!-- Google icons  -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav1">
+            <img src="images/logo.png" width="120px" height="80px">
+        </div>
+        <div class="icon-about">
+            <a href="booklistpage.html" style="border-left: 1px solid white;">All Books</a>
+        </div>
+        <div class="icon-about">
+            <a href="contactus.html">Contact-Us</a>
+        </div>
+        <div class="icon-about">
+            <a href="aboutus.html">About-Us</a>
+        </div>
+        <div class="icon-about">
+            <a style="color: black;font-size:18px;" href="#">Sign-Up</a>
+        </div>
+        <div class="icon-about">
+            <i class="material-icons"><span class="material-icons-outlined">account_circle</span></i>
+            <a href="signin.html">Sign-in</a>
+        </div>
+    </nav>
+    <div class="fullcontent">
+        <div class="headings">
+            <h1>Sign Up</h1>
+            <h2>If you want to join our family , sign up now for free !!!</h2>
+        </div>
+        <div class="formbox">
+            <h3>Sign Up</h3>
+            <form id="form" action="action.php" method="get">
+                <label for="">Username</label>
+                <input type="text" name="username" class="asd"/>
+                <label for="">Password</label>
+                <input type="password" id="" name="password" class="asd"/>
+				Gender : 
+				<input type="radio" id="Male" name="gender" value="male">
+                <label for="Male">Male</label><br>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" id="Female" name="gender" value="female">
+                <label for="Female">Female</label><br><br>
+				<label for="birthday">Birth Date:</label>
+                <input type="date" id="birthday" class="birthday" name="birth Date"><br><br>
+				Interest of books : <br><br>
+				&nbsp &nbsp <input type="checkbox" id="book1" name="book1" value="" >
+                <label for="book1"> Adventure</label><br>
+                &nbsp &nbsp <input type="checkbox" id="book2" name="book2" value="" >
+                <label for="book2"> Drama</label><br>
+                &nbsp &nbsp <input type="checkbox" id="book3" name="book3" value="" >
+                <label for="book3"> Horror</label><br>
+				<br>
+				<button type="reset" name="reset" class="mainbox">
+                    Reset
+                </button>
+				<br>
+                <button type="submit" name="submit" class="mainbox">
+                    Sign Up
+                </button>
+				<br>
+                <label for="">Already a customer?</label>
+                <a href="signin.html" style="text-decoration: none;" >
+                    <button class="mainbox" type="button">
+                        Sign In, Now.
+                    </button>
+                </a>
+            </form>	
+        </div>
+    </div>
+</body>
+
+</html>

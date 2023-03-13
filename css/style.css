@@ -273,19 +273,19 @@ body{
     .books{
         display: flex;
         flex-direction: row;
-        background-color: #cbb5e2;
+        background-color: #7c7a7d;
         border-radius: 10px;
         margin-bottom: 3em;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     }
     .books:nth-of-type(2){
-        background-color: #fbadaf;
+        background-color: #666364;
     }
     .books:nth-of-type(3){
-        background-color: #a4e0eb;
+        background-color: #6d7070;
     }
     .books:nth-of-type(4){
-        background-color: #fdca95;
+        background-color: #7a7876;
     }
     .book-img{
         width: 100%;
@@ -331,7 +331,7 @@ body{
         margin-top: 1em;
         background: none;
         border: none;
-        color: #cbb5e2;
+        color: #757377;
         background-color: white;
         padding: 0.6em 1.5em;
         font-size: 1em;
@@ -339,25 +339,25 @@ body{
         font-weight: bolder;
     }
     .descp button:hover{
-        color: #a790f2;
+        color: #8c8b8f;
     }
     #b1{
-        color: #fbadaf;
+        color: #767373;
     }
     #b1:hover{
-        color: #ff6e9f;
+        color: #6a6969;
     }
     #b2{
-        color: #a4e0eb;
+        color: #717374;
     }
     #b2:hover{
-        color: #62cdec;
+        color: #6c6d6e;
     }
     #b3{
-        color: #fdca95;
+        color: #7d7c7b;
     }
     #b3:hover{
-        color: #fb9124;
+        color: #757474;
     }
 
 }
@@ -452,13 +452,13 @@ body{
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     }
     .books:nth-of-type(2){
-        background-color: #fbadaf;
+        background-color: #6f6c6c;
     }
     .books:nth-of-type(3){
-        background-color: #a4e0eb;
+        background-color: #6a6c6c;
     }
     .books:nth-of-type(4){
-        background-color: #fdca95;
+        background-color: #787776;
     }
     .book-img{
         width: 70%;
@@ -504,7 +504,7 @@ body{
         margin-top: 1em;
         background: none;
         border: none;
-        color: #cbb5e2;
+        color: #79787a;
         background-color: white;
         padding: 0.6em 1.5em;
         font-size: 1em;
@@ -512,25 +512,25 @@ body{
         font-weight: bolder;
     }
     .descp button:hover{
-        color: #a790f2;
+        color: #8d8b92;
     }
     #b1{
-        color: #fbadaf;
+        color: #959393;
     }
     #b1:hover{
-        color: #ff6e9f;
+        color: #848282;
     }
     #b2{
-        color: #a4e0eb;
+        color: #686969;
     }
     #b2:hover{
-        color: #62cdec;
+        color: #606162;
     }
     #b3{
-        color: #fdca95;
+        color: #838281;
     }
     #b3:hover{
-        color: #fb9124;
+        color: #7b7977;
     }
 
 

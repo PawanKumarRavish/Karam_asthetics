@@ -446,7 +446,7 @@ body{
         width: 100%;
         max-width: 600px;
         justify-content: space-evenly;
-        background-color: #cbb5e2;
+        background-color: #6e6d6e;
         border-radius: 20px;
         margin-bottom: 3em;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -708,7 +708,4 @@ body{
     }
 
 }
-.photoSize{
-    width: 200px;
-    line-height: 100px;
-}
+
